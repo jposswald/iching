@@ -1,0 +1,260 @@
+{
+  "Hexagramas": [
+    {"numero": 1,
+    "nombre": "|| El Cielo/Lo Creativo.",
+    "id": [[1,1,1],[1,1,1]]},
+
+    {"numero": 2,
+    "nombre": "|| La Tierra/Lo Receptivo.",
+    "id": [[0,0,0],[0,0,0]]},
+
+    {"numero": 3,
+    "nombre": "|| La Dificultad Inicial.",
+    "id": [[1,0,0],[0,1,0]]},
+
+    {"numero": 4,
+    "nombre": "|| La Necedad Juvenil.",
+    "id": [[0,1,0],[0,0,1]]},
+
+    {"numero": 5,
+    "nombre": "|| La Espera/ La Alimentacion.",
+    "id": [[1,1,1],[0,1,0]]},
+
+    {"numero": 6,
+    "nombre": "|| El Conflicto.",
+    "id": [[0,1,0],[1,1,1]]},
+
+    {"numero": 7,
+    "nombre": "|| El Ejercito.",
+    "id": [[0,1,0],[0,0,0]]},
+
+    {"numero": 8,
+    "nombre": "|| La Solidaridad.",
+    "id": [[0,0,0],[0,1,0]]},
+
+    {"numero": 9,
+    "nombre": "|| La Fuerza Domesticadora de lo Pequeño.",
+    "id": [[1,1,1],[0,1,1]]},
+
+    {"numero": 10,
+    "nombre": "|| El Porte/ La Pisada.",
+    "id": [[1,1,0],[1,1,1]]},
+
+    {"numero": 11,
+    "nombre": "|| La Paz.",
+    "id": [[1,1,1],[0,0,0]]},
+
+    {"numero": 12,
+    "nombre": "|| El Estancamiento.",
+    "id": [[0,0,0],[1,1,1]]},
+
+    {"numero": 13,
+    "nombre": "|| Comunidad con los Hombres.",
+    "id": [[1,0,1],[1,1,1]]},
+
+    {"numero": 14,
+    "nombre": "|| La Posesion de lo Grande.",
+    "id": [[1,1,1],[1,0,1]]},
+
+    {"numero": 15,
+    "nombre": "|| La Modestia.",
+    "id": [[0,0,1],[0,0,0]]},
+
+    {"numero": 16,
+    "nombre": "|| El Entusisasmo.",
+    "id": [[0,0,0],[1,0,0]]},
+
+    {"numero": 17,
+    "nombre": "|| El Seguimiento.",
+    "id": [[1,0,0],[1,1,0]]},
+
+    {"numero": 18,
+    "nombre": "|| El Trabajo en lo Echado a Perder.",
+    "id": [[0,1,1],[0,0,1]]},
+
+    {"numero": 19,
+    "nombre": "|| El Acercamiento.",
+    "id": [[1,1,0],[0,0,0]]},
+
+    {"numero": 20,
+    "nombre": "|| La Contemplacion/La Vision.",
+    "id": [[0,0,0],[0,1,1]]},
+
+    {"numero": 21,
+    "nombre": "|| La Mordedura Tajante.",
+    "id": [[1,0,0],[1,0,1]]},
+
+    {"numero": 22,
+    "nombre": "|| La Gracia.",
+    "id": [[1,0,1],[0,0,1]]},
+
+    {"numero": 23,
+    "nombre": "|| La Desintegracion.",
+    "id": [[0,0,0],[0,0,1]]},
+
+    {"numero": 24,
+    "nombre": "|| El Retorno/El Solsticio.",
+    "id": [[1,0,0],[0,0,0]]},
+
+    {"numero": 25,
+    "nombre": "|| La Inocencia/Lo Inesperado.",
+    "id": [[1,0,0],[1,1,1]]},
+
+    {"numero": 26,
+    "nombre": "|| La Fuerza Domesticadora de lo Grande.",
+    "id": [[1,1,1],[0,0,1]]},
+
+    {"numero": 27,
+    "nombre": "|| Las Comisuras de la Boca/La Alimentacion.",
+    "id": [[1,0,0],[0,0,1]]},
+
+    {"numero": 28,
+    "nombre": "|| La Preponderancia de lo Grande.",
+    "id": [[0,1,1],[1,1,0]]},
+
+    {"numero": 29,
+    "nombre": "|| Lo Abismal/ El Agua.",
+    "id": [[0,1,0],[0,1,0]]},
+
+    {"numero": 30,
+    "nombre": "|| Lo Adherente/ El Fuego.",
+    "id": [[1,0,1],[1,0,1]]},
+
+    {"numero": 31,
+    "nombre": "|| El Influjo/Cortejo.",
+    "id": [[0,0,1],[1,1,0]]},
+
+    {"numero": 32,
+    "nombre": "|| La Duracion.",
+    "id": [[0,1,1],[1,0,0]]},
+
+    {"numero": 33,
+    "nombre": "|| La Retirada.",
+    "id": [[0,0,1],[1,1,1]]},
+
+    {"numero": 34,
+    "nombre": "|| El Poder de lo Grande.",
+    "id": [[1,1,1],[1,0,0]]},
+
+    {"numero": 35,
+    "nombre": "|| El Progreso.",
+    "id": [[0,0,0],[1,0,1]]},
+
+    {"numero": 36,
+    "nombre": "|| El Oscurecimiento de la Luz.",
+    "id": [[1,0,1],[0,0,0]]},
+
+    {"numero": 37,
+    "nombre": "|| El Clan.",
+    "id": [[1,0,1],[0,1,1]]},
+
+    {"numero": 38,
+    "nombre": "|| El Antagonismo.",
+    "id": [[1,1,0],[1,0,1]]},
+
+    {"numero": 39,
+    "nombre": "|| El Impedimento.",
+    "id": [[0,0,1],[0,1,0]]},
+
+    {"numero": 40,
+    "nombre": "|| La Liberacion.",
+    "id": [[0,1,0],[1,0,0]]},
+
+    {"numero": 41,
+    "nombre": "|| La Perdida.",
+    "id": [[1,1,0],[0,0,1]]},
+
+    {"numero": 42,
+    "nombre": "|| El Aumento.",
+    "id": [[1,0,0],[0,1,1]]},
+
+    {"numero": 43,
+    "nombre": "|| El Desbordamiento/Irrupcion/Resolucion.",
+    "id": [[1,1,1],[1,1,0]]},
+
+    {"numero": 44,
+    "nombre": "|| El Ir al Encuentro/Transigencia.",
+    "id": [[0,1,1],[1,1,1]]},
+
+    {"numero": 45,
+    "nombre": "|| La Reunion/Coleccion.",
+    "id": [[0,0,0],[1,1,0]]},
+
+    {"numero": 46,
+    "nombre": "|| La Subida/Penetrar Hacia lo Alto.",
+    "id": [[0,1,1],[0,0,0]]},
+
+    {"numero": 47,
+    "nombre": "|| La Desazon/Opresion/Agotamiento.",
+    "id": [[0,1,0],[1,1,0]]},
+
+    {"numero": 48,
+    "nombre": "|| El Pozo de Agua.",
+    "id": [[0,1,1],[0,1,0]]},
+
+    {"numero": 49,
+    "nombre": "|| La Revolucion/La Muda.",
+    "id": [[1,0,1],[1,1,0]]},
+
+    {"numero": 50,
+    "nombre": "|| El Caldero.",
+    "id": [[0,1,1],[1,0,1]]},
+
+    {"numero": 51,
+    "nombre": "|| Lo Suscitativo/El Trueno.",
+    "id": [[1,0,0],[1,0,0]]},
+
+    {"numero": 52,
+    "nombre": "|| El Aquietamiento/La Montaña.",
+    "id": [[0,0,1],[0,0,1]]},
+
+    {"numero": 53,
+    "nombre": "|| La Evolucion.",
+    "id": [[0,0,1],[0,1,1]]},
+
+    {"numero": 54,
+    "nombre": "|| La Muchacha que se Casa.",
+    "id": [[1,1,0],[1,0,0]]},
+
+    {"numero": 55,
+    "nombre": "|| La Plenitud.",
+    "id": [[1,0,1],[1,0,0]]},
+
+    {"numero": 56,
+    "nombre": "|| El Andariego.",
+    "id": [[0,0,1],[1,0,1]]},
+
+    {"numero": 57,
+    "nombre": "|| Lo Suave/Lo Penetrante/El Viento.",
+    "id": [[0,1,1],[0,1,1]]},
+
+    {"numero": 58,
+    "nombre": "|| Lo Sereno/El Lago.",
+    "id": [[1,1,0],[1,1,0]]},
+
+    {"numero": 59,
+    "nombre": "|| La Disolucion.",
+    "id": [[0,1,0],[0,1,1]]},
+
+    {"numero": 60,
+    "nombre": "|| La Restriccion.",
+    "id": [[1,1,0],[0,1,0]]},
+
+    {"numero": 61,
+    "nombre": "|| La verdad Interior.",
+    "id": [[1,1,0],[0,1,1]]},
+
+    {"numero": 62,
+    "nombre": "|| La Preponderancia de lo  Pequeño.",
+    "id": [[0,0,1],[1,0,0]]},
+
+    {"numero": 63,
+    "nombre": "|| Despues de la Consumacion.",
+    "id": [[1,0,1],[0,1,0]]},
+
+    {"numero": 64,
+    "nombre": "|| Antes de la Consumacion.",
+    "id": [[0,1,0],[1,0,1]]}
+
+  ]
+}
