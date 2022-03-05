@@ -1,3 +1,5 @@
+#version 1.1
+
 from random import randint
 import random, time, json
 def main():
@@ -24,7 +26,7 @@ def main():
         main.graf = False ##esto inicia sin el "modo graf"
         main.mut  = False # inicia sin modo mutante
 
-        apurado = True
+        apurado = False
         def esperar():
             if apurado == False:
                 time.sleep(1)
@@ -203,14 +205,15 @@ def main():
                         elif inp_inicial == "3":
                             tirar_3(), graficar(), get_hex()
                             break
-                        elif inp_inicial.casefold() in ["ayuda", "4", "help", "?"]:
-                            print("ayudaaaaaaaaaaaa")
-                            txt = ""
-                            continue
+                        # elif inp_inicial.casefold() in ["ayuda", "4", "help", "?"]:
+                        #     print("")
+                        #     txt = ""
+                        #     continue
                         elif inp_inicial.casefold() in ["salir", "exit"]:
                             exit()
                         else:
-                            print("Entrada erronea. Presiona ayuda para ver comandos disponibles.")
+                            # print("Entrada erronea. Presiona ayuda para ver comandos disponibles.")
+                            print("Entrada erronea.")
                             txt = ""
                             continue
 
@@ -218,7 +221,6 @@ def main():
         \n1: Consulta Virtual. (Las tiradas son generadas digitalmente por este programa.)
         \n2: Lectura Fisica. (Con tus monedas reales, ingresas la cantidad de soles.)
         \n3: Modo Lectura Avanzada. (Para usuarios avanzados, se introduce solo los numeros del 6 al 9.)
-        \n4: Ayuda.
 
         """)
         input_init(texto)
