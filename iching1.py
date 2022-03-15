@@ -3,14 +3,12 @@
 from random import randint
 import random, time, json
 def main():
-        with open('j.json') as f:
-          data = json.load(f)  ## abriend0 el js0n, y abaj0 definiend0 l0 que van a ser l0s triagramas
+        with open('hex.json') as f:
+          data = json.load(f)  ## abriend0 el json, y abajo definiend0 lo que van a ser los triagramas
           f.close()
         tr_1, tr_2, tr_3, tr_4, tr_5, tr_6, tr_7, tr_8 = [0,0,0], [0,0,1], [0,1,0], [0,1,1], [1,0,0], [1,0,1], [1,1,0], [1,1,1],
 
-        # el coso para esperar. Por ahora esto es solo para unix.
-        # Se que para windows hay otra, tendre que rescribirlo para que sea compatible
-        # o bien tendre que buscar otra manera.
+        # el coso para esperar. Por ahora esto es solo para unix, porque es lo que yo uso. No pude probar en otros sistemas.
         def wait():
                 import sys, tty, termios
                 fd = sys.stdin.fileno()
@@ -26,7 +24,7 @@ def main():
         main.graf = False ##esto inicia sin el "modo graf"
         main.mut  = False # inicia sin modo mutante
 
-        apurado = False
+        apurado = False ## en caso de querer saltearte la espera, ponelo en True
         def esperar():
             if apurado == False:
                 time.sleep(1)
@@ -52,7 +50,7 @@ def main():
             elif main.mut == False:
                 return sept_fij
             else: return sept
-        def ocho(): # apr0vech0 el switch y l0 reus0 despues para que grafique segun el numer0 q aparece
+        def ocho(): # aprovecho el switch y lo reuso despues para que grafique segun el numero q aparece
             if main.graf == False:
                 return "Linea yin estable."
             elif main.mut == False:
@@ -86,7 +84,7 @@ def main():
                 i,x = i+1 ,x +1
                 esperar()
 
-        def check_input(txt): #se asegura que el input sea c0rrect0 para el m0d0 2
+        def check_input(txt): #se asegura que el input sea correcto para el modo 2
             while True:
                 try:
                     inp = int(input(txt))
@@ -117,11 +115,11 @@ def main():
                 i,x = i+1 ,x +1
                 if apurado == False:
                     time.sleep(1)
-        def convertir(text, dic): #esta mierda es para el m0d0 3, para que sea valid0 tant0 678 c0m0 012
+        def convertir(text, dic): #esto es para el modo 3, para que sea valido tanto 678 como 012
             for i, v in dic.items():
                 text = text.replace(i, v)
             return text
-        def check_input_avanzado(txt): #se encarga del input del m0d0 3
+        def check_input_avanzado(txt): #se encarga del input del modo 3
             while True:
                     inp = input(txt)
                     if   (inp[0]) in "6789" and len(inp) == 6 and inp.isdigit():
@@ -146,7 +144,7 @@ def main():
             for asd in range(5,-1,-1):
                 print(switch(int(res_final[asd])))
 
-        def check_hex(a, b): #se fija el hexagrama y l0 c0mpara c0n la entry que esta en el j.s0n
+        def check_hex(a, b): #se fija el hexagrama y lo compara con la entry que esta en el json
             global n
             i, n = 0, 0
             while ([a, b]) != (data["Hexagramas"][n]["id"]):
